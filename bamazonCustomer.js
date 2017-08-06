@@ -1,5 +1,6 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
+var Manage = require("./bamazonManager");
 var table;
 var connection = mysql.createConnection({
     host: "localhost",
@@ -33,7 +34,7 @@ function mainMenu() {
                });
            } else if (answer.main === "Handle Inventory") {
                //Or call the function to handle the inventory
-               manageInventory();
+              Manage();
            }
     });
 }
