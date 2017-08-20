@@ -23,3 +23,43 @@ Add to Inventory: As the name would suggest, this option allows the user to sele
 Add New Product: This selection will ask the user the name, department, price, and quantity of the item he or she would like to add to the product line.  On submit, an INSERT statement is run to add the new product to the products table.
 
 Screen shots for the various features enabled through this application can be found here: https://docs.google.com/document/d/12hgU-5kdpCT24SD_3c6JdLat0X60tv6DXXQCXjlv0XA/edit?usp=sharing
+
+Bamazon Screenshots
+
+Initial Menu:
+
+
+Option 1:
+
+
+Item is in stock for the quantity requested:
+
+
+
+Item is Out of Stock:
+
+
+Proceed with Purchase if Item in Stock:
+
+
+Option 2 (Handle Inventory):
+
+
+Choices:
+
+
+View Products:
+
+
+View Low Inventory (Anything under 300 units):
+
+
+Add to Inventory:
+
+
+Add New Product:
+
+
+Database Table:
+
+
